@@ -159,7 +159,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameInstance.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Umbra\Actors\Actor.cpp" />
+    <ClCompile Include="Umbra\Actors\ActorTransform.cpp" />
+    <ClCompile Include="Umbra\Actors\ActorWorld.cpp" />
+    <ClCompile Include="Umbra\Application.cpp" />
+    <ClCompile Include="Umbra\Levels\Level.cpp" />
+    <ClCompile Include="Umbra\Levels\LevelManager.cpp" />
+    <ClCompile Include="Umbra\Screen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameInstance.h" />
+    <ClInclude Include="Umbra\Actors\Actor.h" />
+    <ClInclude Include="Umbra\Actors\ActorTransform.h" />
+    <ClInclude Include="Umbra\Actors\ActorWorld.h" />
+    <ClInclude Include="Umbra\Application.h" />
+    <ClInclude Include="Umbra\Levels\Level.h" />
+    <ClInclude Include="Umbra\Levels\LevelManager.h" />
+    <ClInclude Include="Umbra\Screen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
